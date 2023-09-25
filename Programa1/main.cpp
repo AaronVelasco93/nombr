@@ -7,7 +7,8 @@ int main(int argc, char** argv) {
 	int mins;
 	int minres; 
 	printf("Mins:");
-	scanf("%i",mins);
-	
-	return 0;
+	scanf("%i",&mins);
+	horas=mins/60;
+	minres=mins%60;
+	printf("Equivale a %i: %02i",horas, minres);
 }
